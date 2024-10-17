@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyClass {
 
-    @GetMapping("hello")
+    @GetMapping("health")
     public String sayHello(){
-        return "Hello";
+        return "Server is live";
     }
 }
